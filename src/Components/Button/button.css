@@ -1,15 +1,15 @@
 .close:hover,
 .close:focus {
-  box-shadow: inset -5.5em 0 0 0 #0a5574, inset 5.5em 0 0 0 #0a5574;
+  box-shadow: inset -5.5em 0 0 0 #6c4de7, inset 5.5em 0 0 0 #6c4de7;
 }
 button {
-  color: #584129;
+  color: black;
   transition: 500ms;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    border-color: #0a5574;
+    border-color: #6c4de7;
     color: #fff;
   }
 }
@@ -22,8 +22,3 @@ button {
   margin: 0.5em;
   padding: 1em 2em;
 }
-
-/* .btn:hover,
-.btn:focus {
-  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
-} */

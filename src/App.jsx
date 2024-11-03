@@ -1,4 +1,4 @@
-import { Header, Footer, Hero, About } from "./AllFilesAccess"
+import { Header, Footer, Hero, About, Service} from "./AllFilesAccess"
 
 function App() {
   return (
@@ -6,6 +6,8 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Service />
+
       {/* <Footer /> */}
     </>
   )

@@ -6,5 +6,5 @@ import Button from "./Components/Button/Button"
 import Hero_image from "../src/assets/MyAssets/hero-picture.png"
 import About from "./Components/About/About"
 import ToggleBtn from "./Components/mode/Mode"
-
-export { Header, Footer, Hero, Logo, Button, Hero_image, About,ToggleBtn }
+import Service from "./Components/Services/Service"
+export { Header, Footer, Hero, Logo, Button, Hero_image, About, ToggleBtn, Service}
