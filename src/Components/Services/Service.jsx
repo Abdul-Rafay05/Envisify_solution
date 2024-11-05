@@ -7,7 +7,7 @@ function Service() {
         <>
             <div className="container p-5 flex flex-col gap-4 min-w-full dark:bg-[#0F172A]">
                 <div className="content text-center">
-                    <h1 className='font-Poppins text-2xl md:text-[35px] font-bold uppercase text-[#6C4DE7] dark:text-white'>Our <span className="text-black dark:text-[#38BDF8]">Services</span></h1>
+                    <h1 className='font-Poppins text-2xl md:text-[35px] font-semibold uppercase text-[#6C4DE7] dark:text-white'>Our <span className="text-black dark:text-[#38BDF8]">Services</span></h1>
                     <p className='font-Titillium text-black text-base md:text-lg mt-3 dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi eius labore voluptatem nam recusandae dolor
                     </p>
                 </div>

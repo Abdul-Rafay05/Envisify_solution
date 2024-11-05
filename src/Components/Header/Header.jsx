@@ -71,7 +71,7 @@ function Header() {
           <div className='flex justify-center items-end md:items-center gap-3 flex-col md:flex-row'>
             <div className="wrapper flex justify-center items-center gap-4 order-1 md:order-2 ">
               <div className='order-2'>
-                <i className={`fa-solid text-2xl ${Mode === "dark" ? "fa-moon" : "fa-sun"} ${Onscroll ? "text-black" : "text-white"}`}></i>
+                <i className={`bi text-2xl ${Mode === "dark" ? "bi-moon-stars-fill" : "bi-sun"} ${Onscroll ? "text-black" : "text-white"}`}></i>
               </div>
               <div className='order-1'>
                 <label className="relative inline-flex items-center cursor-pointer ">
