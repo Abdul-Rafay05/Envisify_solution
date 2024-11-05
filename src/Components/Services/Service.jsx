@@ -5,10 +5,10 @@ import ServiceCard from './ServiceCard'
 function Service() {
     return (
         <>
-            <div className="container p-5 flex flex-col gap-4 border-2 min-w-full">
+            <div className="container p-5 flex flex-col gap-4 min-w-full dark:bg-[#0F172A]">
                 <div className="content text-center">
-                    <h1 className='text-2xl font-bold uppercase text-[#6C4DE7] '>Our <span className="text-[#584129]">Services</span></h1>
-                    <p className='text-black md:text-sm lg:text-base mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi eius labore voluptatem nam recusandae dolor
+                    <h1 className='font-Poppins text-2xl md:text-[35px] font-bold uppercase text-[#6C4DE7] dark:text-white'>Our <span className="text-black dark:text-[#38BDF8]">Services</span></h1>
+                    <p className='font-Titillium text-black text-base md:text-lg mt-3 dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi eius labore voluptatem nam recusandae dolor
                     </p>
                 </div>
                 <div className="services_portion flex flex-wrap gap-5 justify-center items-center w-full p-2 md:p-5 lg:p-8">

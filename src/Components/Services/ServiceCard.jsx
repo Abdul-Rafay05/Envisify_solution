@@ -11,11 +11,11 @@ function ServiceCard(props) {
                     <img className='w-full h-auto' src={props.image} alt="" />
                 </div>
                 <div className="heading mt-4 mb-2">
-                    <h1 className='text text-center text-xl font-bold uppercase text-[#6C4DE7] duration-150'>
+                    <h1 className='font-Poppins text text-center text-xl font-bold uppercase text-[#6C4DE7] duration-150'>
                         {props.title}
                     </h1>
                 </div>
-                <div className="text text-center text-sm">
+                <div className="text-base md:text-lg font-Titillium text text-center">
                     <p>{props.content}</p>
                 </div>
                 <div className="button mt-4 cursor-pointer">
